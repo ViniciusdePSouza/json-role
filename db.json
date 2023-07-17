@@ -1,9 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "name": "Vinicius",
+      "email": "vinicius@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Vinícius de Paula Souza Silva",
+      "email": "vinitoddy@icloud.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Camiseta Atronalta Vermelho",
+      "email": "wendersonej.74@gmail.com",
+      "password": "444444",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "events": [
+    {
+      "id": 1,
+      "producer_id": 2,
+      "availableOn": "eventim",
+      "about": "Para te aquecer nesse inverno, preparamos uma festa junina à lá Quente Pelano, no Aeroporto Carlos Prates!É claro que uma festa junina da QP não seria uma festa junina      convencional, né? Para acompanhar os tradicionais costumes da festa      de São João, preparamos intervenções artísticas de tirar o fôlego,      cenografia inédita, flash tattoo, feirinha mix com marcas e artistas locais além, é claro, de uma curadoria musical pensada para esquentar o clima da noite!",
+      "date": "2023-09-19T18:33:00.000Z",
+      "address": "R. Ocidente, 100 - Padre Eustáquio, Belo Horizonte",
+      "place": "Aeroporto Carlos Prates",
+      "price": "R$ 50,00",
+      "title": "QP no Catavento",
+      "tag": "esportes",
+      "img": "https://picsum.photos/350/180",
+      "link": "https://www.eventim.com.br/artist/tastesaopaulofestival/",
+      "hot": false
+    },
+    {
+      "title": "Quente Pelano Sunset",
+      "img": "https://picsum.photos/350/180",
+      "id": 2,
+      "place": "Mix Garden",
+      "address": "R. Ocidente, 100 - Padre Eustáquio, Belo Horizonte",
+      "producer_id": 2,
+      "availableOn": "eventim",
+      "price": "R$ 22,90",
+      "tag": "exposição",
+      "about": "Para te aquecer nesse inverno, preparamos uma festa junina à lá Quente Pelano, no Aeroporto Carlos Prates!É claro que uma festa junina da QP não seria uma festa junina      convencional, né? Para acompanhar os tradicionais costumes da festa      de São João, preparamos intervenções artísticas de tirar o fôlego,      cenografia inédita, flash tattoo, feirinha mix com marcas e artistas locais além, é claro, de uma curadoria musical pensada para esquentar o clima da noite!",
+      "date": "Sat Jul 18 2020 00:00:00 GMT-0300 (GMT-03:00)",
+      "link": "https://www.eventim.com.br/campaign/rogerwaters",
+      "hot": true
+    },
+    {
+      "id": 3,
+      "producer_id": 2,
+      "availableOn": "eventim",
+      "about": "Para te aquecer nesse inverno, preparamos uma festa junina à lá Quente Pelano, no Aeroporto Carlos Prates!É claro que uma festa junina da QP não seria uma festa junina      convencional, né? Para acompanhar os tradicionais costumes da festa      de São João, preparamos intervenções artísticas de tirar o fôlego,      cenografia inédita, flash tattoo, feirinha mix com marcas e artistas locais além, é claro, de uma curadoria musical pensada para esquentar o clima da noite!",
+      "date": "2023-06-01T20:48:00.000Z",
+      "address": "R. Ocidente, 100 - Padre Eustáquio, Belo Horizonte",
+      "place": "Jardin Canadá",
+      "price": "R$ 150,00",
+      "title": "Arraial Quente Pelano",
+      "tag": "shows",
+      "img": "https://picsum.photos/350/180",
+      "link": "https://www.eventim.com.br/campaign/mitafestival",
+      "hot": true
+    },
+    {
+      "producer_id": 2,
+      "availableOn": "eventim",
+      "about": "PACOTE VIP - BACKSTAGE PIZZA PARTY\n\nIMPORTANTE\n✦ O ingresso do show está incluso no valor da experiência\n✦ Essa experiência é válida apenas para o setor PISTA VIP - CEDO OU TARDE\n\nINCLUSO\n✦ Credencial/Sticker especial\n✦ Entrada antecipada no dia do show\n✦ Acesso à passagem de som dos artistas\n✦ Área exclusiva em frente ao palco\n✦ Pizza party com a banda após o show\n✦ M&G com os artistas e direito a foto exclusiva\n✦ Poster comemorativo da tour assinado por membros da banda (edição limitada)\n\nPACOTE VIP - HOT SOUND\n\nIMPORTANTE\n✦ O ingresso do show está incluso no valor da experiência\n✦ Essa experiência é válida apenas para o setor PISTA VIP - CEDO OU TARDE\n\nINCLUSO\n✦ Essa experiência não inclui M&G com os artistas\n✦ Credencial/Sticker especial\n✦ Entrada antecipada no dia do show\n✦ Acesso a passagem de som dos artistas\n✦ Área exclusiva em frente ao palco\n✦ Poster comemorativo da tour assinado por todos os integrantes (Edição limitada)\n\nINGRESSO SOCIAL:\nValor reduzido, com a doação de 1kg de alimento não perecível, disponível para qualquer pessoa.\n\nATENÇÃO: Cada categoria de ingressos meia entrada disponíveis para este evento deverá ser utilizada pela categoria específica do beneficiário indicado, conforme previsão de lei, sendo necessária a apresentação dos documentos comprobatórios do benefício. A compra do ingresso em categoria não equivalente a sua condição pode impedir o seu acesso ao evento.\nEsteja atento às informações em seu processo de compra.",
+      "date": "2023-10-18T23:32:00.000Z",
+      "address": "Rua Herculano Pena 537,apto 201",
+      "place": "Expominas",
+      "price": "R$50,00",
+      "title": "Turne razões e Emoções ",
+      "tag": "Shows",
+      "img": "https://picsum.photos/350/180",
+      "link": "https://www.eventim.com.br/artist/nxzero/",
+      "hot": false,
+      "id": 4
+    }
   ],
-  "profile": { "name": "typicode" }
+  "tags": [
+    "Shows",
+    "Exposição",
+    "Festa",
+    "Esportes",
+    "Culinária",
+    "Cultura"
+  ]
 }
